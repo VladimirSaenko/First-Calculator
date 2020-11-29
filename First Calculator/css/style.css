@@ -44,8 +44,8 @@ body {
     color: white;
     background: #0c2935;
     place-items: center;
-    border: 1.5px solid green;
-    font-size: 35px;
+    border: 4px solid green;
+    font-size: 30px;
 }
 
 .calculator span:hover {
@@ -97,4 +97,33 @@ body {
     color: yellow;
 }
 
+.calculator span.trak_numb {
+    background: red;
+    color: yellow;
+    font-size: 25px;
+}
+
+.calculator span.trak_numb:hover {
+    background: black;
+}
+
+.calculator span.trak_numb:active {
+    background: white;
+    color: red;
+}
+
+.calculator span.over_numb {
+    background: red;
+}
+
+.calculator span.over_numb:hover {
+    background: white;
+    color: red;
+}
+
+
+.calculator span.over_numb:active {
+    background: black;
+    color: white;
+}
 
