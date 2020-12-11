@@ -127,3 +127,6 @@ body {
     color: white;
 }
 
+.calculator span.alc_numb {
+    width: auto;
+}
