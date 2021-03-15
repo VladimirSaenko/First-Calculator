@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
 * {
     margin: 0;
@@ -21,6 +21,15 @@ body {
     min-height: 100vh;
 }
 
+.container {
+    position: relative;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgb(0 0 0 / 20%);
+    backdrop-filter: blur(10px);
+
+}
+
 .calculator {
     position: relative;
     display: grid;
@@ -32,35 +41,45 @@ body {
     height: 100px;
     text-align: right;
     outline: none;
-    padding: 5px;
-    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    cursor: default;
+    font-size: 30px;
+    width: 300px;
 }
 
 .calculator span {
     user-select: none;
+    cursor: pointer;
     display: grid;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     color: white;
     background: #0c2935;
     place-items: center;
-    border: 4px solid green;
+    border: 4px solid #0c2935;
     font-size: 30px;
+    transition: 0.5s;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-right: 1px solid rgba(255,255,255,0.05);
 }
 
 .calculator span:hover {
-    background: #113747;
-    color: greenyellow;
+    background: rgba(255,255,255,0.05);
+    transition: 0s;
+    cursor: pointer;
+    color: rgb(0, 212, 35);
 }
 
 .calculator span:active {
-    background: green;
-    color: #111;
+    background: black;
+    color: rgb(9, 165, 35);
 }
 
 .calculator span.clear {
     grid-column: span 2;
-    width: 135px;
+    width: 150px;
     color: white;
     background: #ff3077;
 }
@@ -69,9 +88,14 @@ body {
     color: black;
 }
 
+.calculator span.clear:active {
+    background: #b61e53;
+    color: #091921;
+}
+
 .calculator span.plus {
     grid-row: span 2;
-    height: 120px;
+    height: 150px;
 }
 
 .calculator span.equal {
@@ -83,7 +107,7 @@ body {
 }
 
 .calculator span.equal:active {
-    background: black;
+    background: #2ba2da;
     color: white;
 }
 
@@ -120,7 +144,6 @@ body {
     background: white;
     color: red;
 }
-
 
 .calculator span.over_numb:active {
     background: black;
