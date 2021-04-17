@@ -1,6 +1,9 @@
 # First Calculator
  
-Калькулятор с фичей виде кнопок -3, 300, 40, 0.25, 0.5, 40, 25 и звуком при нажатии на -3, 40, 0.25 и 0.5
+Калькулятор с фичей в виде кнопок -3, 300, 40, 0.25, 0.5, 40, 25 и звуком при нажатии на -3, 40, 0.25 и 0.5
+
+![4434](https://user-images.githubusercontent.com/56477695/115112765-bf169500-9f8f-11eb-86c2-8e8327e73160.png)
+
 
 https://vladimirsaenko.github.io/Portfolio-2/sites/site-8/First%20Calculator/index.html
 
