@@ -6,7 +6,7 @@
 
 ## Portfolio {
 
-### https://vladimirsaenko.github.io/Portfolio-2/sites/site-8/First%20Calculator/index.html
+### https://vladimirsaenko.github.io/Portfolio-2/sites/site-7/First%20Calculator/index.html
 
 ### }
 
