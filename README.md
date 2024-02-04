@@ -1,6 +1,4 @@
 # First Calculator
- 
-## Калькулятор
 
 ![4434](https://user-images.githubusercontent.com/56477695/115112765-bf169500-9f8f-11eb-86c2-8e8327e73160.png)
 
